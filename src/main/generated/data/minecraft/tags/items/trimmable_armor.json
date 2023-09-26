@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arcanearchaeology:azure_helmet",
+    "arcanearchaeology:azure_chestplate",
+    "arcanearchaeology:azure_leggings",
+    "arcanearchaeology:azure_boots"
+  ]
+}

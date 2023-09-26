@@ -1,0 +1,36 @@
+{
+  "itemGroup.arcanearchaeology": "Arcane Archaeology",
+
+  "block.arcanearchaeology.suspicious_red_sand": "Suspicious Red Sand",
+  "block.arcanearchaeology.suspicious_dirt": "Suspicious Dirt",
+  "block.arcanearchaeology.suspicious_clay": "Suspicious Clay",
+  "block.arcanearchaeology.suspicious_mud": "Suspicious Mud",
+
+  "item.arcanearchaeology.unidentified_artifact": "Unidentified Artifact",
+  "item.arcanearchaeology.azure_upgrade": "Azure Upgrade",
+  "item.arcanearchaeology.buried_scroll": "Buried Scroll",
+  "item.arcanearchaeology.azure_crystal_shard": "Azure Crystal Shard",
+  "item.arcanearchaeology.azure_prism": "Azure Prism",
+  "item.arcanearchaeology.resonant_enigma": "Resonant Enigma",
+  "item.arcanearchaeology.tome_of_infernal_truth": "Tome of Infernal Truth",
+
+  "item.arcanearchaeology.amethyst_brush": "Amethyst Brush",
+  "item.arcanearchaeology.echo_brush": "Echo Brush",
+
+  "item.arcanearchaeology.azure_helmet": "Azure Helmet",
+  "item.arcanearchaeology.azure_chestplate": "Azure Chestplate",
+  "item.arcanearchaeology.azure_leggings": "Azure Leggings",
+  "item.arcanearchaeology.azure_boots": "Azure Boots",
+
+  "item.arcanearchaeology.azure_sword": "Azure Sword",
+  "item.arcanearchaeology.azure_pickaxe": "Azure Pickaxe",
+  "item.arcanearchaeology.azure_axe": "Azure Axe",
+  "item.arcanearchaeology.azure_shovel": "Azure Shovel",
+  "item.arcanearchaeology.azure_hoe": "Azure Hoe",
+
+  "item.minecraft.smithing_template.azure_upgrade.title": "Azure Upgrade",
+  "item.minecraft.smithing_template.azure_upgrade.applies_to": "Gold Equipment",
+  "item.minecraft.smithing_template.azure_upgrade.ingredients": "Azure Prism",
+  "smithing_template.azure_upgrade.base_slot_description": "Add gold armor, weapon or tool",
+  "smithing_template.azure_upgrade.additions_slot_description": "Add Azure Prism"
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcanearchaeology",
+	"version": "${version}",
+	"name": "Arcane Archaeology",
+	"description": "Discover long lost arcane secrets that'll enhance your exploration and lore!",
+	"authors": [
+		"Vexate"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/arcanearchaeology/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vexate.arcanearchaeology.ArcaneArchaeology"
+		],
+		"client": [
+			"net.vexate.arcanearchaeology.ArcaneArchaeologyClient"
+		],
+		"fabric-datagen": [
+			"net.vexate.arcanearchaeology.ArcaneArchaeologyDataGenerator"
+		]
+	},
+	"mixins": [
+		"arcanearchaeology.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

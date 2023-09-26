@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcanearchaeology:azure_prism"
+  },
+  "base": {
+    "item": "minecraft:gold_boots"
+  },
+  "result": {
+    "item": "arcanearchaeology:azure_boots"
+  },
+  "template": {
+    "item": "arcanearchaeology:azure_upgrade"
+  }
+}

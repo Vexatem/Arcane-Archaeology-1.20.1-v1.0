@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcanearchaeology:azure_prism"
+  },
+  "base": {
+    "item": "minecraft:gold_hoe"
+  },
+  "result": {
+    "item": "arcanearchaeology:azure_hoe"
+  },
+  "template": {
+    "item": "arcanearchaeology:azure_upgrade"
+  }
+}

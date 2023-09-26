@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vexate.arcanearchaeology.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FasterBrushingMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

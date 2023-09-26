@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "arcanearchaeology:azure_crystal_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "T": {
+      "item": "arcanearchaeology:azure_upgrade"
+    }
+  },
+  "pattern": [
+    "ATA",
+    "AGA",
+    "AAA"
+  ],
+  "result": {
+    "count": 2,
+    "item": "arcanearchaeology:azure_upgrade"
+  },
+  "show_notification": true
+}
