@@ -17,7 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.AZURE_HELMET, ModItems.AZURE_CHESTPLATE, ModItems.AZURE_LEGGINGS, ModItems.AZURE_BOOTS);
-        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.AZURE_UPGRADE);
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.AZURE_PRISM);
     }
 }
