@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:echo_brush"
+        "recipe": "arcanearchaeology:echo_brush"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:echo_brush"
+      "arcanearchaeology:echo_brush"
     ]
   },
   "sends_telemetry_event": false

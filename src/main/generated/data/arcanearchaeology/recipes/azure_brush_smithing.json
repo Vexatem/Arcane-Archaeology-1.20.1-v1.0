@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "arcanearchaeology:azure_prism"
+    "item": "arcanearchaeology:azure_brush"
   },
   "base": {
-    "item": "minecraft:gold_boots"
+    "item": "minecraft:echo_brush"
   },
   "result": {
-    "item": "arcanearchaeology:azure_boots"
+    "item": "arcanearchaeology:azure_brush"
   },
   "template": {
     "item": "arcanearchaeology:azure_upgrade_smithing_template"

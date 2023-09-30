@@ -7,6 +7,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
+import net.vexate.arcanearchaeology.ArcaneArchaeology;
 import net.vexate.arcanearchaeology.item.ModItems;
 
 import java.util.function.Consumer;
@@ -19,6 +20,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 
+        offerSmithingTrimRecipe(exporter, ModItems.AZURE_UPGRADE, new Identifier(ArcaneArchaeology.MOD_ID, "azure_upgrade_smithing_template"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMETHYST_BRUSH, 1)
                 .pattern("F")
                 .pattern("G")
@@ -27,7 +30,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('G', Items.GOLD_INGOT)
                 .input('A', Items.AMETHYST_SHARD)
                 .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMETHYST_BRUSH)));
+                .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ECHO_BRUSH, 1)
                 .pattern("F")
@@ -37,7 +40,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('D', Items.DIAMOND)
                 .input('E', Items.ECHO_SHARD)
                 .criterion(hasItem(Items.ECHO_SHARD), conditionsFromItem(Items.ECHO_SHARD))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ECHO_BRUSH)));
+                .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AZURE_PRISM, 1)
                 .pattern("AAA")
@@ -46,7 +49,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A', ModItems.AZURE_CRYSTAL_SHARD)
                 .input('B', Items.AMETHYST_SHARD)
                 .criterion(hasItem(ModItems.AZURE_CRYSTAL_SHARD), conditionsFromItem(ModItems.AZURE_CRYSTAL_SHARD))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AZURE_PRISM)));
+                .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AZURE_UPGRADE, 2)
                 .pattern("ATA")
@@ -56,6 +59,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('G', Items.GOLD_BLOCK)
                 .input('A', ModItems.AZURE_CRYSTAL_SHARD)
                 .criterion(hasItem(ModItems.AZURE_UPGRADE), conditionsFromItem(ModItems.AZURE_UPGRADE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AZURE_UPGRADE)));
+                .offerTo(exporter);
     }
 }

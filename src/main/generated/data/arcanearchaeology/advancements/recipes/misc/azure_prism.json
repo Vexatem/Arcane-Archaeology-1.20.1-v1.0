@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:azure_prism"
+        "recipe": "arcanearchaeology:azure_prism"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:azure_prism"
+      "arcanearchaeology:azure_prism"
     ]
   },
   "sends_telemetry_event": false

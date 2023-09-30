@@ -39,6 +39,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AZURE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMETHYST_BRUSH, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ECHO_BRUSH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AZURE_BRUSH, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AZURE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AZURE_CHESTPLATE));

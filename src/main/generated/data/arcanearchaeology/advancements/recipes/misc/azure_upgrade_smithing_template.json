@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_azure_upgrade": {
+    "has_smithing_trim_template": {
       "conditions": {
         "items": [
           {
             "items": [
-              "arcanearchaeology:azure_upgrade"
+              "arcanearchaeology:azure_upgrade_smithing_template"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:azure_upgrade"
+        "recipe": "arcanearchaeology:azure_upgrade_smithing_template"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_azure_upgrade",
+      "has_smithing_trim_template",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:azure_upgrade"
+      "arcanearchaeology:azure_upgrade_smithing_template"
     ]
   },
   "sends_telemetry_event": false

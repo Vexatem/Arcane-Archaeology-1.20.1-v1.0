@@ -21,6 +21,7 @@ public class ModItems {
     // ITEM ENTRIES
     public static final Item AMETHYST_BRUSH = registerItem("amethyst_brush", (Item) (new BetterBrushItem((new Item.Settings()).maxDamage(96), 8)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item ECHO_BRUSH = registerItem("echo_brush", (Item) (new BetterBrushItem((new Item.Settings()).maxDamage(128), 6)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
+    public static final Item AZURE_BRUSH = registerItem("azure_brush", (Item) (new BetterBrushItem((new Item.Settings()).maxDamage(256), 3)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
 
     public static final Item AZURE_SWORD = registerItem("azure_sword", new SwordItem(ModToolMaterial.AZURE, 5, 1.8f, new FabricItemSettings()), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item AZURE_PICKAXE = registerItem("azure_pickaxe", new PickaxeItem(ModToolMaterial.AZURE, 3, 1.4f, new FabricItemSettings()), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
@@ -40,7 +41,7 @@ public class ModItems {
     public static final Item RESONANT_ENIGMA = registerItem("resonant_enigma", new Item(new FabricItemSettings().rarity(Rarity.EPIC)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item TOME_OF_INFERNAL_TRUTH = registerItem("tome_of_infernal_truth", new Item(new FabricItemSettings().rarity(Rarity.EPIC)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
 
-    public static final Item AZURE_UPGRADE = registerItem("azure_upgrade", new ModSmithingTemplateItem(
+    public static final Item AZURE_UPGRADE = registerItem("azure_upgrade_smithing_template", new ModSmithingTemplateItem(
             AZURE_UPGRADE_APPLIES_TO_TEXT, AZURE_UPGRADE_INGREDIENTS_TEXT, AZURE_UPGRADE_TEXT, AZURE_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT, AZURE_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT,
             ModSmithingTemplateItem.getAzureUpgradeEmptyBaseSlotTextures(), ModSmithingTemplateItem.getAzureUpgradeEmptyAdditionsSlotTextures()), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
 
