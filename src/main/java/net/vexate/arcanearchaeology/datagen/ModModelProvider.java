@@ -45,6 +45,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AZURE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AZURE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AZURE_BOOTS));
-
     }
 }

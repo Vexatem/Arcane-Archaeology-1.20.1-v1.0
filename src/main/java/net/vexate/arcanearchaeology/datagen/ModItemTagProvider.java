@@ -19,5 +19,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AZURE_HELMET, ModItems.AZURE_CHESTPLATE, ModItems.AZURE_LEGGINGS, ModItems.AZURE_BOOTS);
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.AZURE_PRISM);
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.AZURE_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.AZURE_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.AZURE_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.AZURE_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.AZURE_HOE);
     }
 }

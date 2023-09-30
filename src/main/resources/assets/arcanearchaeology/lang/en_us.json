@@ -31,6 +31,6 @@
   "item.minecraft.smithing_template.azure_upgrade_smithing_template.title": "Azure Upgrade",
   "item.minecraft.smithing_template.azure_upgrade_smithing_template.applies_to": "Gold Equipment",
   "item.minecraft.smithing_template.azure_upgrade_smithing_template.ingredients": "Azure Prism",
-  "item.minecraft.smithing_template.azure_upgrade_smithing_template.base_slot_description": "Add gold armor, weapon or tool",
+  "item.minecraft.smithing_template.azure_upgrade_smithing_template.base_slot_description": "Add echo brush, gold armor, weapon or tool",
   "item.minecraft.smithing_template.azure_upgrade_smithing_template.additions_slot_description": "Add Azure Prism"
 }

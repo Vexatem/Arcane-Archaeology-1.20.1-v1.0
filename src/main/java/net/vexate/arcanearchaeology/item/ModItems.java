@@ -36,7 +36,7 @@ public class ModItems {
 
     public static final Item UNIDENTIFIED_ARTIFACT = registerItem("unidentified_artifact", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item AZURE_CRYSTAL_SHARD = registerItem("azure_crystal_shard", new Item(new FabricItemSettings().rarity(Rarity.COMMON)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
-    public static final Item AZURE_PRISM = registerItem("azure_prism", new Item(new FabricItemSettings().rarity(Rarity.RARE)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
+    public static final Item AZURE_PRISM = registerItem("azure_prism", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item BURIED_SCROLL = registerItem("buried_scroll", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item RESONANT_ENIGMA = registerItem("resonant_enigma", new Item(new FabricItemSettings().rarity(Rarity.EPIC)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
     public static final Item TOME_OF_INFERNAL_TRUTH = registerItem("tome_of_infernal_truth", new Item(new FabricItemSettings().rarity(Rarity.EPIC)), ModItemGroup.ARCANE_ARCHAEOLOGY_ITEM_GROUP);
