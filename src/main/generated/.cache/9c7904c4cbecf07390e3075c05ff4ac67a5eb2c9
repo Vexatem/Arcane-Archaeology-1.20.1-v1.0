@@ -1,2 +1,8 @@
-// 1.20.1	2023-09-20T22:29:18.0160221	Arcane Archaeology/Tags for minecraft:item
+// 1.20.1	2023-10-01T02:48:35.290142	Arcane Archaeology/Tags for minecraft:item
+63af2b52a70260a053f068670a4bdf59e88829ac data\minecraft\tags\items\trim_materials.json
+cef89c22c56f0de46df25bb9eb38838f1236c9da data\minecraft\tags\items\pickaxes.json
 67b6758229a9a984590da6d3e7b085dac960c6a4 data\minecraft\tags\items\trimmable_armor.json
+a2024be66e8e66995bc904aba8974e43c653c496 data\minecraft\tags\items\shovels.json
+be16727a459914215d085c77e94792cfc5f0ce79 data\minecraft\tags\items\swords.json
+bb3e3c17408f2a2467f5c760e2b3c92ac1b7d5e9 data\minecraft\tags\items\hoes.json
+66195f357bde3b3fa2ecf29162a1c2cc97062871 data\minecraft\tags\items\axes.json
